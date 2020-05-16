@@ -15,5 +15,5 @@ The Hexapod has 6 legs which has 3 degrees of freedom. We need to take informati
 We have 19 MCUs that need to be I2C interfaced, and for this we need need an I2C expander. We could use a [TCA6424](https://www.ti.com/lit/ds/symlink/tca6424a.pdf?&ts=1589644182823), a 24-bit I2C expander which can connect upto 24 devices onto a single bus. 
 
 ### Microcontroller
-We use an Arduino Mega because we need to set HIGH or LOW to ADC0 pins of the IMU sensors, and we'd need 19 digital pins for it. Arduino Uno and Nano do not have enough pins for the same. We could connect the Arduino to the PC using a USB. 
+We use an Arduino Mega because we need to set HIGH or LOW to ADC0 pins of the IMU sensors, and we'd need 19 digital pins for it. Arduino Uno and Nano do not have enough pins for the same. We could connect the Arduino to the PC using a USB. The hexapod's simulation can be viewed on V-rep Robot Simulation supporting MATLAB. 
 
