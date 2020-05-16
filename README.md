@@ -5,6 +5,6 @@ The idea behind this ring is to make the ring light up when worn by the user. Th
 
 
 ### [TASK 2: HEXAPOD](https://github.com/GayatriRR/Minitask3/blob/master/Task2:%20%20Hexapod.md)
-
+A Hexapod is a spider-like robot whose motion is based on a spider's. The task is to mirror the Hexapod's actions on a computer using sensors on the pod to sense its motion.
 
 ### [TASK 3: MICROMOUSE MAZE](https://github.com/GayatriRR/Minitask3/blob/master/Task3:%20%20Micromouse%20Maze.md)
