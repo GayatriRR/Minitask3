@@ -15,5 +15,7 @@ As the presence of an external switch is the problem with the system in the firs
 | Idea | Implementation | Comments |
 |-------------------|--------------------|--------------------|
 | External trigger to complete the circuit when pressed | Some external component, similar to a mini-button to which can switch on the circuit when pressed. | Simple. But can cause discomfort. |
-| Touch sensor | A [TTP223](https://datasheet.lcsc.com/szlcsc/TTP223-BA6_C80757.pdf) acts as a touch sensor | It occupies less area and could light up even when it is not worn and just picked up. |
-| Darlington Transistor | A 2N5306 Darlington transistor can act as a touch sensor. | 
+| Capacitive Touch sensor | A [TTP223](https://datasheet.lcsc.com/szlcsc/TTP223-BA6_C80757.pdf) acts as a touch sensor | It occupies less area and could light up even when it is not worn and just picked up. |
+| Darlington Transistor | A [BSP52](https://www.mouser.in/datasheet/2/308/BSP52T1-D-1803012.pdf) Darlington transistor can act as a touch sensor. The priciple is such that the small current that our body produces must get amplified to such a factor that the LED is able to light up. This ensures safety due to small current flowing through the body (order of micro amperes). | We need the finger to complete the circuit and this means some level of challenge in the design of the circuit. On the other hand, it is a simple, safe and compact circuit to implement. |
+| LDR based circuit | When the ring is worn in hand, the inner surface becomes dark, which is detected by the LDR making the LED light up. | The components used are small, thus the design can be made, but the circuit could light up when it is kept in a dark enclosure. Thus this might need an extra switch to switch off the circuit when the ring is not likely to be used. |
+
