@@ -1,4 +1,4 @@
-## TASK 1: SMART RING 
+# TASK 1: SMART RING 
 
 ### Constraints:
 It being a ring brings a big constraint in the form of **size**. Moreover, as it is going to be worn, the **heating effect** should be less. **Current** through the circuit should be maintained low to make it as safe as possible. The components also must have a **sleep/low power mode** to minimise the power lost while it is not being used.
