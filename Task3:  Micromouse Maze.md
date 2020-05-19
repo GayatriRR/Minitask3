@@ -19,17 +19,17 @@
 ![as](https://miro.medium.com/max/2000/1*bFJAh4ErlEx7rPRMg96Tpw.png)
 
 
-2.
-| Comparison parameter | Distance sensor | TOF sensor |
+[2.](https://www.youtube.com/watch?v=xO5_3SjEhS4)| Comparison parameter | Distance sensor | TOF sensor |
+|---------------------|--------------|-------------|
 | Range | 2cm-400cm | 10cm-180cm |
 | Working voltage voltage | 5Vdc | 3-5 Vdc |
-| orking current | 15mA | 35 mA |
-45*20*15mm | 20*13*5 mm
-low cost | higer cost
-Exposed to environment | sealed to environment
-digital I/O connection | serial connection and I2C 
-slow response | quick response
-wider range of field | narrow range of field
+| Working current | 15mA | 35 mA |
+| Dimensions | 45mm x 20mm x 15mm | 20mm x 13mm x 5mm |
+| Cost | Lower cost | Higher cost |
+| Environment factors | Exposed to environment (affeted by tempertature and humidity) | Sealed to environment |
+| Connections | Digital I/O connection | Serial connection and I2C |
+| Response | Slow response | Quick response |
+| ROF | Wider range of field | Narrow range of field |
 
 
 
