@@ -13,13 +13,13 @@
 * Motors with encoders
 * Software part: Arduino IDE + Flood fill algorithm + Proportional control for straight line travel
 
-### Suggestions:
-**[1.](https://miro.medium.com/max/2000/1*bFJAh4ErlEx7rPRMg96Tpw.png)** We don't exactly need a Bluetooth or Wifi module for the circuit, thus even though a lot of suggestions are in favour of an Arduino, an [STM32](https://www.electronicscomp.com/stm32f103c8t6-minimum-system-board-stm32-arm-module-india) is a better option. The STM32 is compact, has enough memory, enough I/O pins and has faster processing than an Arduino. It can be developed on the Arduino IDE itself.
+### Comments:
+**1.** We don't exactly need a Bluetooth or Wifi module for the circuit, thus even though a lot of suggestions are in favour of an Arduino, an [STM32](https://www.electronicscomp.com/stm32f103c8t6-minimum-system-board-stm32-arm-module-india) is a [better option](https://miro.medium.com/max/2000/1*bFJAh4ErlEx7rPRMg96Tpw.png). The STM32 is compact, has enough memory, enough I/O pins and has faster processing than an Arduino. It can be developed on the Arduino IDE itself.
 
 ![as](https://miro.medium.com/max/2000/1*bFJAh4ErlEx7rPRMg96Tpw.png)
 
 
-**[2.](https://www.youtube.com/watch?v=xO5_3SjEhS4)** Sensors: We use both TOF sensors and ultrasonic sensors in the project.
+**2.** Sensors: We use both TOF sensors and ultrasonic sensors in the project. A [comparison](https://www.youtube.com/watch?v=xO5_3SjEhS4) between them is listed below. 
 
 | Comparison parameter | Distance sensor | TOF sensor |
 |---------------------|--------------|-------------|
@@ -35,9 +35,9 @@
 
 From the above, we see that the TOF sensor has a faster response and smaller in size. Moreover, it offers a more accurate measurement than an ultrasonic sensor (this feature is not very necessary feature for a maze solver); but on the downside, the TOF sensor costs more. If two TOF sensors can be afforded, it is better to continue using them in the project. 
 
-3. It would be better to use a circular chassis if it can be afforded. But for a micromouse under the TechSoc budget, the current design is the best.
+**3.** It would be better to use a circular chassis if it can be afforded. But for a micromouse under the TechSoc budget, the current design is the best.
 
-4. We could continue using the Arduino IDE for the project. 
+**4.** We could continue using the Arduino IDE for the project. 
 
 
 
